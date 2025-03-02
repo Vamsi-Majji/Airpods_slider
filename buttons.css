@@ -1,0 +1,23 @@
+.additional-buttons {
+    position: absolute;
+    bottom: 10px;
+    width: 1140px;
+    max-width: 90%;
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+.additional-buttons button {
+    background-color: #693EFF; /* Add a background color */
+    color: white; /* Change text color to white for contrast */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Add padding for better click area */
+    border-radius: 5px; /* Add slight rounding to corners */
+    cursor: pointer; /* Change cursor to pointer */
+    margin: 0 5px; /* Add margin between buttons */
+}
+
+.additional-buttons button:hover {
+    background-color: #5a2bc0; /* Darken background on hover */
+}
